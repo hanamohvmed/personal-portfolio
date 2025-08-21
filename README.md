@@ -27,7 +27,9 @@ It showcases my projects, skills, and experience, with interactive UI elements, 
 *Frontend*  
 - React
 - Tailwind CSS  
-- GSAP + ScrollTrigger (animations & transitions)  
+- GSAP + ScrollTrigger
+- Three.js
+- Sketchfab  
 - Lucide Icons  
 
 *Forms & Validation*  
@@ -40,6 +42,3 @@ It showcases my projects, skills, and experience, with interactive UI elements, 
 
 ## 📸 Demo
 [Live Demo](https://personal-portfolio-umber-xi.vercel.app/)
-*Development Tools*  
-- 📦 Vite (lightning-fast bundler)  
-- 🔧 ESLint & Prettier (code quality & formatting)
