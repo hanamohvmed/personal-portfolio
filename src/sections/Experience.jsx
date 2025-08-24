@@ -85,13 +85,15 @@ export default function Experience() {
                     className="w-full h-auto rounded-lg object-cover shadow-lg"
                   />
                 </div>
-                <div className="xl:w-1/3 flex flex-col gap-6 card-text lg:ml-26">
+                <div className="xl:w-1/3 flex flex-col gap-6 card-text lg:ml-60">
                   <div className="flex items-start gap-5">
-                    <img
-                      src={card.logo}
-                      alt="logo"
-                      className="w-12 h-12 md:w-16 md:h-16 object-contain rounded-full border-4 border-white bg-gray-900 shadow-lg relative z-10"
-                    />
+                    <div className="absolute left-1/2 -translate-x-88 top-0 z-20">
+                      <img
+                        src={card.logo}
+                        alt="logo"
+                        className="w-12 h-12 md:w-16 md:h-16 object-contain rounded-full border-4 border-white bg-gray-900 shadow-lg relative z-10"
+                      />
+                    </div>
                     <div>
                       <h1 className="font-medium text-2xl md:text-3xl text-white-50">
                         {card.title}
