@@ -6,7 +6,7 @@ export default function Footer() {
       <p>Thank you for viewing! Feel free to connect.</p>
       <div className="underline md:flex-row flex flex-col items-center">
         <a className="mr-3 hover:text-[#22a1f1]" href="#hero">
-          Hero
+          Home
         </a>
         <a className="mr-3 hover:text-[#22a1f1]" href="#about">
           About
